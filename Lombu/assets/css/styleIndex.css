@@ -5,8 +5,15 @@ body{
 
 header a{
     text-decoration: none;
-    color: white    ;
+    color: white;
+    padding-left: 3px;
 }
+
+.datos{
+    padding-left: 3px;
+    border-right: 2px solid white
+}
+
 header {
     display: flex;
     height: 80px;
