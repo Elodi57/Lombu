@@ -8,15 +8,17 @@
     <link rel="icon" href="images/Logo Lombu.ico">
     <link rel="stylesheet" type="text/css" href="assets/css/styleLogin.css">
 </head>
-<body>
+<body background="images/FondoLogin_Register.jpg">
     <!--Imagen-->
-    <img class="logo" src="images/LogoLombuSocialNetwork.png">
+    <a href="index.html">
+        <img class="logo" src="images/LogoLombuSocialNetwork.png">
+    </a>
     <!---------->
     <section class="form-register">
          <!--Registro-->
         <h4>Iniciar Sesión</h4>
              <!--Formulario-->
-            <form>
+            <form id="formulario">
                  <!--Usuario-->
                 <input class="controls" type="text" name="Nombre" id="Nombre" placeholder="Nombre de Usuario" required>
 
@@ -24,12 +26,17 @@
                 <input class="controls" type="password" name="Contraseña" id="Contraseña" placeholder="Contraseña" required>
 
                  <!--Boton registrarse-->
-                <div class="button-container">
-                    <button class="botons" type="submit">Iniciar Sesion</button>
+                 <div class="button-container">
+                    <button class="botons" id="boton" type="submit">Iniciar Sesion</button>
                 </div>
-            </form>
-             <!---------->
+            </form> 
     </section>
+    <script>
+        const btn = document.querySelector("boton");
+        document.getElementById("boton").onclick=function(){
+            location.href='cuenta.html';
+        };
+    </script>
 </body>
 </html>
 

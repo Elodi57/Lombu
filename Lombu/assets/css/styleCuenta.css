@@ -1,0 +1,132 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+header a{
+    padding-left: 3px;
+    text-decoration: none;
+    color: white;
+    margin-left: 3px;
+    padding-right: 50%;
+}
+
+.datos{
+    border-right: 2px solid white;
+    text-decoration: none;
+    padding-left: 3px;
+    color: white;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    background-color: #5f008c;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.logoheader{
+    display: flex;
+    align-items: center;
+}
+
+.logoheader img{
+    height: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.account{
+    height: 50px;
+    margin-left: 5px;
+    padding-right: 30px;
+}
+/*-------------*/
+
+.fotoPerfil{
+    height: 150px;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+span{
+    display: flex;
+}
+
+.cuenta{
+    margin-left: 5%;
+    margin-top: 5.5%;
+    border-left: solid black 3px;
+    padding-left: 3%;
+}
+.estadisticas{
+    color: #5f008c;
+    font-size: 18px;
+}
+.nickname{
+    font-size: 40px;
+}
+
+/*-------------*/
+
+.presentacion{
+    padding-top: 3%;
+    margin-left: 10%;
+    text-align: left;
+    font-size: 20px;
+}
+
+.enlaces{
+    padding-top: 1%;
+    margin-left: 10%;
+    text-align: left;
+    font-size: 20px;
+}
+
+.instagram{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.instagram:hover{
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+}
+
+/*-------------*/
+
+.linea{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.publicaciones{
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.imagen{
+    margin-left: 10%;
+    height: 300px;
+    width: 300px;
+    border: solid black 1px;
+}
+
+
+
+
